@@ -1,0 +1,22 @@
+HOW TO RUN YOUR WEBSITE (no GitHub, no Vercel, just your laptop)
+
+1. Open a terminal in this folder.
+
+2. Install the requirements (one time only):
+   pip install -r requirements.txt
+
+3. Open app.py and change this line near the top:
+   NAME = "Your Name"
+   to your own name.
+
+4. Run the app:
+   streamlit run app.py
+
+5. It opens a webpage in your browser. Upload a cat or dog photo and it
+   predicts which one it is. Record your screen or screenshot it for LinkedIn.
+
+A trained model (model.h5) is already included, so this works immediately.
+If you trained your own model in the notebook, you can replace model.h5
+with yours - everything else stays the same.
+
+To stop the app, go back to the terminal and press Ctrl+C.
